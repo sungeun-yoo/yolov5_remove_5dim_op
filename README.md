@@ -58,8 +58,8 @@ concat_name_list = [
 python 5dim_2_4dim.py
 ```
 5 dim OP <br>
-<img src = ".//resource/5dim_onnx.png" width="50%" height="50%">
+<img src = ".//resource/5dim_onnx.png" width="100%" height="100%">
 
 4 dim OP <br>
-<img src = ".//resource/4dim_onnx.png" width="50%" height="50%">
+<img src = ".//resource/4dim_onnx.png" width="100%" height="100%">
 
