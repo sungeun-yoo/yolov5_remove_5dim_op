@@ -1,5 +1,15 @@
 # yolov5_remove_5dim_op
+
 Remove 5 dimension OP for NPU
+
+---
+
+# Prerequisites
+
+Export ONNX Model File with --Simplify in the yolov5 repo.
+```
+python export.py --weights last.pt --simplify
+```
 
 
 # Install
