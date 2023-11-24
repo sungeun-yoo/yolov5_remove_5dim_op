@@ -1,0 +1,4 @@
+sed4onnx
+json2onnx
+onnx2json
+onnx==1.11.0

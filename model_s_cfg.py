@@ -1,18 +1,4 @@
-# yolov5_remove_5dim_op
-Remove 5 dimension OP for NPU
 
-
-# Install
-> pip install -r requirement.txt
-
-# Run
-## Make or Moddifiy xxx_config.py
-
-- Onnx path and result onnx path<br>
-- 5dim Operator list-up <br>
-
-
-```
 onnx_path = '/usr/src/yolov5_remove_5dim_op/yolo_v5_s_creatz.onnx'
 modi_onnx_path ='/usr/src/yolov5_remove_5dim_op/yolo_v5_s_creatz_4dim.onnx'
 json_path =''
@@ -51,9 +37,3 @@ concat_name_list = [
     'Concat_180',
     'Concat_199'
 ]
-```
-
-## Run script with config file
-```
-python 5dim_2_4dim.py
-```
