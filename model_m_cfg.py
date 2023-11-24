@@ -1,6 +1,6 @@
 
-onnx_path = '/usr/src/onnxtest/yolov5m_hphf231017_relu.onnx'
-modi_onnx_path ='/usr/src/onnxtest/yolov5m_hphf231017_relu_4dim.onnx'
+onnx_path = '/usr/src/yolov5_remove_5dim_op/yolov5m_hphf231017_relu.onnx'
+modi_onnx_path ='/usr/src/yolov5_remove_5dim_op/yolov5m_hphf231017_relu_4dim.onnx'
 json_path =''
 
 reshape_name_list = [

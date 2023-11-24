@@ -10,7 +10,7 @@ from sed4onnx import decode
 
 # Argument parser setup
 parser = argparse.ArgumentParser(description='Select model configuration.')
-parser.add_argument('--model-config', choices=['s', 'm', 'ls'], help='Model configuration: s, m, or ls')
+parser.add_argument('--model-config', choices=['s', 'm', 'ls'], default='s', help='Model configuration: s, m, or ls')
 args = parser.parse_args()
 
 # Conditional import based on the argument
