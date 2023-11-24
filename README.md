@@ -13,8 +13,8 @@ Remove 5 dimension OP for NPU
 
 
 ```
-onnx_path = '/usr/src/yolov5_remove_5dim_op/yolo_v5_s_creatz.onnx'
-modi_onnx_path ='/usr/src/yolov5_remove_5dim_op/yolo_v5_s_creatz_4dim.onnx'
+onnx_path = '/usr/src/yolov5_remove_5dim_op/yolo_v5_s.onnx'
+modi_onnx_path ='/usr/src/yolov5_remove_5dim_op/yolo_v5_s_4dim.onnx'
 json_path =''
 
 reshape_name_list = [
